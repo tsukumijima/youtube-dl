@@ -4,22 +4,21 @@
 ## このフォークについて
 
 niconico など、だいたい Merge してくれなさそうな日本の動画配信サイトの Extractor を独自に追加・改善してるフォークです。  
-youtube-dl 本家の DMCA テイクダウンの影響で私がフォークしていたリポジトリも凍結されてしまったため、暫定的に独自リポジトリにしています。  
-youtube-dl 本家の DMCA テイクダウンは解除されましたが、フォークのリポジトリがすぐに凍結解除されるわけではないようで、当面はこのままでいきたいと思います。
+youtube-dl 本家の DMCA テイクダウンの影響で暫定的に [独自リポジトリ](https://github.com/tsukumijima/yt-dl) にしていましたが、復活したため元に戻しました（独自リポジトリの方はアーカイブ済み）。
 
 py2exe をインストールした上で、youtube-dl フォルダ内で `python setup.py py2exe` を実行すると exe 化できます。  
 macOS・Linux では youtube-dl フォルダ内で `make youtube-dl` と実行すると実行ファイルを作成できます。  
-アーカイブのダウンロードは [こちら](https://github.com/tsukumijima/yt-dl/releases) からどうぞ。
+アーカイブのダウンロードは [こちら](https://github.com/tsukumijima/youtube-dl/releases) からどうぞ。
 
-- [fork](https://github.com/tsukumijima/yt-dl/tree/fork) : ここに各ブランチを Merge していく
-- [fix/niconico](https://github.com/tsukumijima/yt-dl/tree/fix/niconico) : niconico 用 Extractor の修正用ブランチ
+- [fork](https://github.com/tsukumijima/youtube-dl/tree/fork) : ここに各ブランチを Merge していく
+- [fix/niconico](https://github.com/tsukumijima/youtube-dl/tree/fix/niconico) : niconico 用 Extractor の修正用ブランチ
   - 落ち着いたら fork にマージする
-- [fix/niconico-c](https://github.com/tsukumijima/yt-dl/tree/fix/niconico-c) : 上記の修正を [youtube-dlc](https://github.com/blackjack4494/yt-dlc) に PR する用ブランチ
+- [fix/niconico-c](https://github.com/tsukumijima/youtube-dl/tree/fix/niconico-c) : 上記の修正を [youtube-dlc](https://github.com/blackjack4494/yt-dlc) に PR する用ブランチ
   - コンフリクトがめんどくさいので master-c ブランチをベースに fix/niconico での変更を cherry-pick する
-- [feature/tver](https://github.com/tsukumijima/yt-dl/tree/feature/tver) : TVer 用 Extractor の新規追加・修正用ブランチ
+- [feature/tver](https://github.com/tsukumijima/youtube-dl/tree/feature/tver) : TVer 用 Extractor の新規追加・修正用ブランチ
   - 落ち着いたら fork にマージする
-- [master](https://github.com/tsukumijima/yt-dl/tree/master) : [youtube-dl 本家](https://github.com/ytdl-org/youtube-dl) の master ブランチを upstream から追跡する
-- [master-c](https://github.com/tsukumijima/yt-dl/tree/master-c) : [youtube-dlc](https://github.com/blackjack4494/yt-dlc) の master ブランチを upstream-c から追跡する
+- [master](https://github.com/tsukumijima/youtube-dl/tree/master) : [youtube-dl 本家](https://github.com/ytdl-org/youtube-dl) の master ブランチを upstream から追跡する
+- [master-c](https://github.com/tsukumijima/youtube-dl/tree/master-c) : [youtube-dlc](https://github.com/blackjack4494/yt-dlc) の master ブランチを upstream-c から追跡する
 
 ------------
 
